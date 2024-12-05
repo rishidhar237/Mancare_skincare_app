@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6E6FA">
+    <!-- Image view for displaying product 1 image -->
+    <ImageView
+        android:id="@+id/product_image_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_1" /> <!-- Placeholder image -->
+
+    <!-- Text view for displaying product 1 description -->
+    <TextView
+        android:id="@+id/product_description_text_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the description for Product 1."
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+</LinearLayout>

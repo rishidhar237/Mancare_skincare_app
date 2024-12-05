@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Added colors -->
+    <color name="purple">#800080</color>
+    <color name="light_purple">#D8B5D1</color>
+    <color name="dark_purple">#4B0082</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="violet">#EE82EE</color>
+    <color name="indigo">#4B0082</color>
+    <color name="gray">#808080</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#008000</color>
+
+        <!-- Basic Colors -->
+        <color name="light_gray">#F5F5F5</color>
+        <color name="dark_gray">#A9A9A9</color>
+        <color name="yellow">#FFEB3B</color>
+        <color name="orange">#FF9800</color>
+
+
+        <!-- Bright Colors -->
+        <color name="light_blue">#03A9F4</color>
+        <color name="light_green">#8BC34A</color>
+        <color name="light_red">#FF5722</color>
+        <color name="light_yellow">#FFEB3B</color>
+
+        <!-- Pastel Colors -->
+        <color name="pastel_pink">#FAD0C4</color>
+        <color name="pastel_blue">#AEC6CF</color>
+        <color name="pastel_green">#B4E1B1</color>
+        <color name="pastel_yellow">#F6E1A5</color>
+
+        <!-- Dark Colors -->
+        <color name="dark_blue">#0D47A1</color>
+        <color name="dark_red">#C62828</color>
+        <color name="dark_green">#2C6B2F</color>
+
+        <!-- Neutral Colors -->
+        <color name="neutral_white">#FFFFFF</color>
+        <color name="neutral_black">#000000</color>
+        <color name="neutral_light">#E0E0E0</color>
+        <color name="neutral_dark">#BDBDBD</color>
+
+</resources>

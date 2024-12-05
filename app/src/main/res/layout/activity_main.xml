@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6E6FA">
+
+    <!-- Top Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/edit_profile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile" />
+
+        <Button
+            android:id="@+id/inventory_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Inventory"
+            android:layout_marginTop="10dp" />
+
+        <!-- Product Info Button -->
+        <Button
+            android:id="@+id/product_info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Product Info"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <!-- TextView for Progress -->
+    <TextView
+        android:id="@+id/progress_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="0 of 0 items completed"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <!-- Reminder Section -->
+    <ListView
+        android:id="@+id/reminder_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp" />
+
+    <!-- ImageView for fun.png that appears when task counts match -->
+    <ImageView
+        android:id="@+id/fun_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fun"
+        android:layout_gravity="center"
+        android:visibility="gone"/> <!-- Initially hidden -->
+
+</LinearLayout>

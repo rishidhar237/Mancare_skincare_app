@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Product Name and Expiry Date in One Line -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Product Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/expiry_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expires: 2024-12-01"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- Product Category in a Separate Line -->
+    <TextView
+        android:id="@+id/product_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: Category Name"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Done Button (For Reminder Section) -->
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" /> <!-- Initially hidden -->
+
+    <!-- Mark as Finished Button (For Inventory Section) -->
+    <Button
+        android:id="@+id/mark_as_finished_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Finished"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" /> <!-- Initially hidden -->
+
+</LinearLayout>

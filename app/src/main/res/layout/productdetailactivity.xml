@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image view for displaying product 1 image -->
+    <ImageView
+        android:id="@+id/product_image_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_1" /> <!-- Placeholder image -->
+
+    <!-- Text view for displaying product 1 description -->
+    <TextView
+        android:id="@+id/product_description_text_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 1 Description"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+    <!-- Image view for displaying product 2 image -->
+    <ImageView
+        android:id="@+id/product_image_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img" /> <!-- Placeholder image -->
+
+    <!-- Text view for displaying product 2 description -->
+    <TextView
+        android:id="@+id/product_description_text_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 2 Description"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+    <!-- Image view for displaying product 3 image -->
+    <ImageView
+        android:id="@+id/product_image_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_2" /> <!-- Placeholder image -->
+
+    <!-- Text view for displaying product 3 description -->
+    <TextView
+        android:id="@+id/product_description_text_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 3 Description"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
